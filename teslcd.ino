@@ -18,9 +18,6 @@ void loop() {
   int i;
   
   lcd.setCursor(0, 0);
-  lcd.print("www.boarduino.blogspot.com - Tutorial Arduino");
-  for (i = 0 ; i < 16; i ++) {
-      lcd.scrollDisplayLeft(); 
-      delay(400);
-  } 
+  lcd.print("HELLO, THERE");
+  
 }
